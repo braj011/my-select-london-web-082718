@@ -1,8 +1,8 @@
 def my_select(collection)
   i = 0
-  while i < words.length
+  while i < collection.length
     new_array << yield(words[i])
-    # words[i] is an argument to Yield, hence use ()
+    
     i += 1
 end
 
