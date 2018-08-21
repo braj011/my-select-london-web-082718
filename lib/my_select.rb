@@ -4,6 +4,7 @@ def my_select(collection)
   while i < collection.length
     new_array << yield(words[i])
     i += 1
+  end 
   new_array
 end
 
