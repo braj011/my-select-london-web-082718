@@ -19,6 +19,4 @@ def my_collect(words) # put argument(s) here
     i += 1
   end
   new_array
-end
-
-=end 
+=end
